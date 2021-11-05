@@ -1,5 +1,5 @@
 def isitemail(m):
-    if "@" and "." in m:
+    if "@" in m and "." in m:
         return True
     else:
         return False        
